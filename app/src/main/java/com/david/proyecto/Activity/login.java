@@ -1,10 +1,13 @@
-package com.david.proyecto;
+package com.david.proyecto.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.david.proyecto.R;
+import com.david.proyecto.compras;
 
 public class login extends AppCompatActivity {
 
@@ -15,7 +18,7 @@ public class login extends AppCompatActivity {
     }
 
     public void abrirCompras(View view){
-        Intent intent = new Intent(login.this, compras.class);
+        Intent intent = new Intent(login.this, MainActivity.class);
         startActivity(intent);
     };
 

@@ -1,4 +1,4 @@
-package com.david.proyecto;
+package com.david.proyecto.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,10 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.Spinner;
 
-import java.lang.reflect.Array;
+import com.david.proyecto.R;
 
 public class registro extends AppCompatActivity {
 
